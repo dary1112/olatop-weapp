@@ -1,0 +1,16 @@
+<!--packages/card-item/card-item.wxml-->
+<view
+  class="ow-card-item"
+  hover-class="ow-card-item--hover"
+  hover-stay-time="70"
+  bind:tap="onClick"
+>
+  <view class="ow-card-item-main">
+    <text class="ow-card-item-main-title">{{ title }}</text>
+    <text wx:if="{{content}}" class="ow-card-item-main-content">{{ content }}</text>
+    <slot />
+  </view>
+  <view wx:if="{{image}}" class="ow-card-item-image">
+    <image mode="aspectFill" src="{{image}}" class="img"></image>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/pie/pie.wxml-->
+<view class="charts-wrap">
+  <view class="container">
+    <ow-pie
+      title="饼状图展示"
+      data="{{data}}"
+    />
+  </view>
+  <view class="options">
+    <charts-option sourceHTML="{{sourceHTML}}" />
+  </view>
+</view>
+

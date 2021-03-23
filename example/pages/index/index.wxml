@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view class="index">
+<text class="title">olatop-weapp 展示</text>
+<view class="main">
+  <view wx:for="{{list}}" wx:for-item="group" wx:for-index="gIndex" wx:key="groupName">
+    <text class="group-title">{{ group.groupName }}</text>
+    <view class="comp-list">
+      <view class="comp-item" wx:for="{{group.list}}" wx:for-item="comp" wx:for-index="cIndex" wx:key="name">
+        <navigator url="../{{comp.name}}/{{comp.name}}">
+          <text>{{comp.title}}</text>
+          <text>></text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/barline/barline.wxml-->
+<view class="charts-wrap">
+  <view class="container">
+    <ow-barline
+      title="柱线图展示"
+      color="{{['#fca4f3', '#0000ff']}}"
+      xAxis="{{xAxis}}"
+      series="{{series}}"
+    />
+  </view>
+  <view class="options">
+    <charts-option sourceHTML="{{sourceHTML}}" />
+  </view>
+</view>

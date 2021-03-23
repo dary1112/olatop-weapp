@@ -1,0 +1,2 @@
+<!--components/scatter/scatter.wxml-->
+<ec-canvas ec="{{ ec }}"></ec-canvas>

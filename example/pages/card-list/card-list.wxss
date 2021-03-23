@@ -1,0 +1,23 @@
+/* pages/card-list/card-list.wxss */
+.list {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list-main {
+  flex: 1;
+  /* 需要写上overflow属性，否则列表内容会将元素高度撑开 */
+  overflow: hidden;
+}
+.footer {
+  display: flex;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  justify-content: flex-end;
+  margin-right: 30rpx;
+}
+.footer view {
+  margin-left: 30rpx;
+  color:#1075e9;
+}

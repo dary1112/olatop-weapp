@@ -1,0 +1,20 @@
+<!--pages/card-list/card-list.wxml-->
+<view class="list">
+  <text class="list-title">卡片列表</text>
+  <view class="list-main">
+    <ow-card-list bind:loadMore="loadMore" hasMore="{{hasMore}}">
+      <ow-card-item
+        wx:for="{{list}}" wx:for-item="card" wx:for-index="index" wx:key="id"
+        id="{{card.id}}"
+        title="{{card.title}}"
+        content="{{card.content}}"
+        image="{{card.image}}"
+      >
+        <view class="footer">
+          <view>收藏</view>
+          <view>点踩</view>
+        </view>
+      </ow-card-item>
+    </ow-card-list>
+  </view>
+</view>

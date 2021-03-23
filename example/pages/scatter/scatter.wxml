@@ -1,0 +1,12 @@
+<!--pages/scatter/scatter.wxml-->
+<view class="charts-wrap">
+  <view class="container">
+    <ow-scatter
+      title="散点图展示"
+      data="{{data}}"
+    />
+  </view>
+  <view class="options">
+    <charts-option sourceHTML="{{sourceHTML}}" />
+  </view>
+</view>

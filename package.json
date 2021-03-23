@@ -1,0 +1,68 @@
+{
+  "name": "olatop-weapp",
+  "version": "1.0.15",
+  "author": "Dero",
+  "license": "MIT",
+  "miniprogram": "lib",
+  "description": "欧拉图谱的小程序 UI 组件库",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "node build/dev.js",
+    "build": "yarn && npx gulp -f build/compiler.js --series buildLib"
+  },
+  "keywords": ["微信小程序", "组件库", "欧拉", "UI", "vant", "olatop"],
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dary1112/olatop-weapp"
+  },
+  "homepage": "https://github.com/dary1112/olatop-weapp",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^10.0.0",
+    "babel-loader": "^8.0.0",
+    "cross-env": "^7.0.0",
+    "css-loader": "^5.0.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.1.0",
+    "gh-pages": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-insert": "^0.5.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "html-webpack-plugin": "^4.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^7.0.0",
+    "lint-staged": "^10.0.0",
+    "miniprogram-api-typings": "^3.1.6",
+    "miniprogram-ci": "^1.0.27",
+    "postcss": "^8.1.1",
+    "postcss-loader": "^4.0.0",
+    "prettier": "^2.0.5",
+    "progress-bar-webpack-plugin": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "stylelint": "^13.0.0",
+    "tscpaths": "^0.0.9",
+    "typescript": "^4.0.0",
+    "vue": "2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.1.1",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-serve": "^2.0.3"
+  },
+  "browserslist": [
+    "Chrome >= 53",
+    "ChromeAndroid >= 53",
+    "iOS >= 8"
+  ],
+  "dependencies": {}
+}

@@ -1,0 +1,8 @@
+<!--packages/card-list/card-list.wxml-->
+<scroll-view scroll-y class="ow-card-list" bindscrolltolower="loadMore">
+  <slot />
+  <view class="loading" wx:if="{{hasMore}}">
+    <van-loading type="spinner" color="#1989fa" />
+  </view>
+  <van-divider wx:else contentPosition="center" dashed>没有更多了</van-divider>
+</scroll-view>

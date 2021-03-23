@@ -1,0 +1,12 @@
+<!--components/option-view/option-view.wxml-->
+<view class="charts-option">
+  <text class="option-title">json配置项</text>
+  <view class="option-editor">
+    <editor
+      id="editor"
+      class="editor"
+      read-only="true"
+      bindready="onEditorReady"
+    ></editor>
+  </view>
+</view>

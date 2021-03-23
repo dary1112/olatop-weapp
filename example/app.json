@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/barline/barline",
+    "pages/card-list/card-list",
+    "pages/pie/pie"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "Olatop Weapp展示",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f8f8f8"
+  },
+  "usingComponents": {
+    "charts-option": "/components/charts-option/charts-option",
+    "ow-barline": "/dist/barline/barline",
+    "ow-card-list": "/dist/card-list/card-list",
+    "ow-card-item": "/dist/card-item/card-item",
+    "ow-pie": "/dist/pie/pie",
+    "ow-scatter": "/dist/scatter/scatter"
+  },
+  "sitemapLocation": "sitemap.json"
+}

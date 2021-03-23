@@ -1,0 +1,35 @@
+/* packages/card-item/card-item.wxss */
+.ow-card-item {
+  display: flex;
+  justify-content: space-between;
+  width: calc(80%);
+  height: 200rpx;
+  margin-top: 15rpx;
+  padding: 10rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+}
+.ow-card-item-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding-right: 10rpx;
+}
+.ow-card-item-main-txt {
+  display: flex;
+  flex-direction: column;
+}
+.ow-card-item-main-title {
+  font-size: 34rpx;
+  line-height: 60rpx;
+}
+.ow-card-item-main-content {
+  font-size: 28rpx;
+  text-indent: 1em;
+  line-height: 50rpx;
+}
+.ow-card-item-image .img {
+  width: 200rpx;
+  height: 200rpx;
+}

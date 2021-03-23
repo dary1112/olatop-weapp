@@ -1,0 +1,2 @@
+<!--components/barline/barline.wxml-->
+<ec-canvas ec="{{ ec }}"></ec-canvas>
