@@ -6,8 +6,10 @@
   bind:tap="onClick"
 >
   <view class="ow-card-item-main">
-    <text class="ow-card-item-main-title">{{ title }}</text>
-    <text wx:if="{{content}}" class="ow-card-item-main-content">{{ content }}</text>
+    <view class="ow-card-item-main-txt">
+      <text class="ow-card-item-main-title">{{ title }}</text>
+      <text wx:if="{{content}}" class="ow-card-item-main-content">{{ content }}</text>
+    </view>
     <slot />
   </view>
   <view wx:if="{{image}}" class="ow-card-item-image">
