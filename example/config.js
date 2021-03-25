@@ -14,6 +14,10 @@ export default [
         name: 'scatter',
         title: '散点图',
       },
+      {
+        name: 'radar',
+        title: '雷达图',
+      }
     ],
   },
   {

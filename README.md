@@ -80,6 +80,7 @@ olatop-weapp 最低支持到小程序基础库 2.2.3 版本
 * [柱线图](./packages/barline/readme.md)
 * [饼状图](./packages/pie/readme.md)
 * [散点图](./packages/scatter/readme.md)
+* [雷达图](./packages/radar/readme.md)
 
 #### 数据类组件
 * [图文卡片列表](./packages/card-list/readme.md)

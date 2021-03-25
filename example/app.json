@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/barline/barline",
     "pages/card-list/card-list",
-    "pages/pie/pie"
+    "pages/pie/pie",
+    "pages/radar/radar"
   ],
   "window": {
     "navigationBarBackgroundColor": "#f8f8f8",
@@ -18,7 +19,8 @@
     "ow-card-list": "/dist/card-list/card-list",
     "ow-card-item": "/dist/card-item/card-item",
     "ow-pie": "/dist/pie/pie",
-    "ow-scatter": "/dist/scatter/scatter"
+    "ow-scatter": "/dist/scatter/scatter",
+    "ow-radar": "/dist/radar/radar"
   },
   "sitemapLocation": "sitemap.json"
 }

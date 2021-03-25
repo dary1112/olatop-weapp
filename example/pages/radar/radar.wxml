@@ -1,0 +1,13 @@
+<!--pages/radar/radar.wxml-->
+<view class="charts-wrap">
+  <view class="container">
+    <ow-radar
+      title="雷达图展示"
+      data="{{data}}"
+      max="{{max}}"
+    />
+  </view>
+  <view class="options">
+    <charts-option sourceHTML="{{sourceHTML}}" />
+  </view>
+</view>
