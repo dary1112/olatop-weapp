@@ -48,7 +48,7 @@ Component({
           text: '基础雷达图'
         },
         legend: {
-          data: ['预算分配（Allocated Budget）', '实际开销（Actual Spending）']
+          data: this.properties.data.map(item => item.name)
         },
         radar: {
           // shape: 'circle',
